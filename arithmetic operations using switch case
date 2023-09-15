@@ -1,0 +1,32 @@
+/* performimg arithmetic operations using switch case statement*/
+#include <stdio.h>
+ int main() {
+ char 'op';
+int a,b;
+printf("enter first number , operatiion , and the second number : ) ;
+
+scanf("%d%c%d" &a, &op, &b );
+ switch('op') {
+
+case '+':
+printf("result=%d\n" a+b);
+break;
+ case '-':
+printf("result=%d\n" a-b);
+break;
+case '*':
+printf("result=%d\n" a*b);
+break;
+case '/';
+printf("result=%d\n" a/b);
+break;
+default:
+printf("result=%d\n" a%b);
+break;
+
+};
+ printf('the pri\ogram is executed .') :
+ return 0;
+
+}
+
